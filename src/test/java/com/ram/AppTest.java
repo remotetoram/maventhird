@@ -18,7 +18,7 @@ public class AppTest {
 		WebDriver driver=new FirefoxDriver();
 		
 		driver.get("http://www.yahoomail.com");
-		driver.findElement(By.id("login-username")).click();;
+		driver.findElement(By.id("login-signin")).click();;
 	}
    
 }
