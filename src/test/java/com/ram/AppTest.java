@@ -24,6 +24,7 @@ public class AppTest {
 		//WebDriver driver=new FirefoxDriver();
 		
 		driver.get("http://www.yahoomail.com");
+
 		System.out.println("Running Junit test");
 		Assert.assertTrue(driver.findElement(By.name("username")).isDisplayed());
 		System.out.println("USERNAME field is shown");
@@ -36,5 +37,6 @@ public class AppTest {
 		driver.close();
 		
 	}
+	
    
 }
